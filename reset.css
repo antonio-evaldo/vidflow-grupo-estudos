@@ -8,3 +8,7 @@ button, input {
   color: inherit;
   font: inherit;
 }
+
+ul, li {
+  list-style: none;
+}

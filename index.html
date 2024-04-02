@@ -13,12 +13,47 @@
   <header class="cabecalho">
     <img src="./img/modo_claro/vidflow-logo-light-mode.png" alt="Logo do Vidflow">
 
-    <div class="container-pesquisa">
-      <input class="input-pesquisa" type="text">
-    </div>
+    <form class="form-pesquisa">
+      <div class="form-pesquisa__container-input">
+        <input class="form-pesquisa__input" type="text">
+        <img class="form-pesquisa__keyboard-img" src="./img/modo_claro/menu_superior/keyboard.svg" alt="">
+      </div>
+      <button class="form-pesquisa__lupa-btn">
+        <img src="./img/modo_claro/menu_superior/search.svg" alt="Pesquisar vídeos">
+      </button>
+      <button class="form-pesquisa__microfone-btn">
+        <img src="./img/modo_claro/menu_superior/mic.svg" alt="Pesquisar por voz">
+      </button>
+    </form>
 
     <div class="secao-links-e-botao-switch">
-      seção links
+      <ul class="cabecalho__links">
+        <li>
+          <a href="#" class="cabecalho__videos">
+            <img src="./img/modo_claro/menu_superior/video_call.svg" alt="Ícone de videochamada">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="cabecalho__videos">
+            <img src="./img/modo_claro/menu_superior/apps.svg" alt="Ícone de aplicativos">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="cabecalho__videos">
+            <img src="./img/modo_claro/menu_superior/notifications.svg" alt="Notificações">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="cabecalho__videos">
+            <img src="./img/modo_claro/menu_superior/Avatar.png" alt="Perfil">
+          </a>
+        </li>
+      </ul>
+
+      <label aria-label="Botão de modo escuro" class="cabecalho-switch">
+        <input type="checkbox" class="cabecalho-switch__input">
+        <span class="cabecalho-switch__slider"></span>
+      </label>
     </div>
   </header>
   <aside>
